@@ -66,12 +66,8 @@
 			children = (
 				3E8B86301BC2D7A300D6F1DE /* AppDelegate.h */,
 				3E8B86311BC2D7A300D6F1DE /* AppDelegate.m */,
-				3E8B86331BC2D7A300D6F1DE /* ViewController.h */,
-				3E8B86341BC2D7A300D6F1DE /* ViewController.m */,
-				3E8B86441BC2E48900D6F1DE /* SPFraction.h */,
-				3E8B86451BC2E48900D6F1DE /* SPFraction.m */,
-				3E8B86471BC2ECBC00D6F1DE /* SPCalculator.h */,
-				3E8B86481BC2ECBC00D6F1DE /* SPCalculator.m */,
+				3E97C80F1BC6B7BE00CBC314 /* Controllers */,
+				3E97C8101BC6B81100CBC314 /* Model */,
 				3E8B86361BC2D7A300D6F1DE /* Main.storyboard */,
 				3E8B86391BC2D7A300D6F1DE /* Assets.xcassets */,
 				3E8B863B1BC2D7A300D6F1DE /* LaunchScreen.storyboard */,
@@ -87,6 +83,26 @@
 				3E8B862E1BC2D7A300D6F1DE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E97C80F1BC6B7BE00CBC314 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B86331BC2D7A300D6F1DE /* ViewController.h */,
+				3E8B86341BC2D7A300D6F1DE /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3E97C8101BC6B81100CBC314 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B86441BC2E48900D6F1DE /* SPFraction.h */,
+				3E8B86451BC2E48900D6F1DE /* SPFraction.m */,
+				3E8B86471BC2ECBC00D6F1DE /* SPCalculator.h */,
+				3E8B86481BC2ECBC00D6F1DE /* SPCalculator.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +326,7 @@
 				3E8B86431BC2D7A300D6F1DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
