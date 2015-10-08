@@ -16,21 +16,4 @@
 -(void) processOp: (char) theOp;
 -(void) storeFractPart;
 
-// for process buttons
-
--(IBAction)clickDigit:(UIButton*)sender;
-
-// arithmetic operations buttons
-
--(IBAction)clickPlus;
--(IBAction)clickMinus;
--(IBAction)clickMultiply;
--(IBAction)clickDivide;
-
-// rest of buttons
-
--(IBAction)clickOver;
--(IBAction)clickEquals;
--(IBAction)clickClear;
-
 @end

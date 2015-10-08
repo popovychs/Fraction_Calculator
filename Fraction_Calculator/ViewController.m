@@ -32,11 +32,6 @@
     myCalculator = [SPCalculator new];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 -(void) processDigit:(NSInteger)digit
 {
     currentNumber = currentNumber * 10 + digit;
