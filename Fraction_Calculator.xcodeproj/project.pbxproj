@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E7D61021BC83D2500DD0E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D61011BC83D2500DD0E08 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		3E8B862F1BC2D7A300D6F1DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B862E1BC2D7A300D6F1DE /* main.m */; };
-		3E8B86321BC2D7A300D6F1DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B86311BC2D7A300D6F1DE /* AppDelegate.m */; };
 		3E8B86351BC2D7A300D6F1DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B86341BC2D7A300D6F1DE /* ViewController.m */; };
 		3E8B86381BC2D7A300D6F1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B86361BC2D7A300D6F1DE /* Main.storyboard */; };
 		3E8B863A1BC2D7A300D6F1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B86391BC2D7A300D6F1DE /* Assets.xcassets */; };
@@ -18,20 +18,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E7D61001BC83D2500DD0E08 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E7D61011BC83D2500DD0E08 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E8B862A1BC2D7A300D6F1DE /* Fraction_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraction_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B862E1BC2D7A300D6F1DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3E8B86301BC2D7A300D6F1DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3E8B86311BC2D7A300D6F1DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E8B86331BC2D7A300D6F1DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E8B86341BC2D7A300D6F1DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E8B86331BC2D7A300D6F1DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		3E8B86341BC2D7A300D6F1DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
 		3E8B86371BC2D7A300D6F1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E8B86391BC2D7A300D6F1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E8B863C1BC2D7A300D6F1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E8B863E1BC2D7A300D6F1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E8B86441BC2E48900D6F1DE /* SPFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFraction.h; sourceTree = "<group>"; };
-		3E8B86451BC2E48900D6F1DE /* SPFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFraction.m; sourceTree = "<group>"; };
-		3E8B86471BC2ECBC00D6F1DE /* SPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCalculator.h; sourceTree = "<group>"; };
-		3E8B86481BC2ECBC00D6F1DE /* SPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCalculator.m; sourceTree = "<group>"; };
+		3E8B86441BC2E48900D6F1DE /* SPFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPFraction.h; path = Model/SPFraction.h; sourceTree = "<group>"; };
+		3E8B86451BC2E48900D6F1DE /* SPFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPFraction.m; path = Model/SPFraction.m; sourceTree = "<group>"; };
+		3E8B86471BC2ECBC00D6F1DE /* SPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPCalculator.h; path = Model/SPCalculator.h; sourceTree = "<group>"; };
+		3E8B86481BC2ECBC00D6F1DE /* SPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPCalculator.m; path = Model/SPCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		3E8B862C1BC2D7A300D6F1DE /* Fraction_Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				3E8B86301BC2D7A300D6F1DE /* AppDelegate.h */,
-				3E8B86311BC2D7A300D6F1DE /* AppDelegate.m */,
+				3E7D61001BC83D2500DD0E08 /* AppDelegate.h */,
+				3E7D61011BC83D2500DD0E08 /* AppDelegate.m */,
 				3E97C80F1BC6B7BE00CBC314 /* Controllers */,
 				3E97C8101BC6B81100CBC314 /* Model */,
 				3E8B86361BC2D7A300D6F1DE /* Main.storyboard */,
@@ -178,8 +178,8 @@
 				3E8B86491BC2ECBC00D6F1DE /* SPCalculator.m in Sources */,
 				3E8B86461BC2E48900D6F1DE /* SPFraction.m in Sources */,
 				3E8B86351BC2D7A300D6F1DE /* ViewController.m in Sources */,
-				3E8B86321BC2D7A300D6F1DE /* AppDelegate.m in Sources */,
 				3E8B862F1BC2D7A300D6F1DE /* main.m in Sources */,
+				3E7D61021BC83D2500DD0E08 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
