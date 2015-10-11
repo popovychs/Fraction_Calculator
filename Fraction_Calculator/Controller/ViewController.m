@@ -28,7 +28,7 @@
 
     firstOperand = YES;
     isNumerator = YES;
-    displayString = [NSMutableString stringWithCapacity:40];
+    displayString = [NSMutableString stringWithCapacity:30];
     myCalculator = [SPCalculator new];
 }
 
@@ -152,6 +152,24 @@
     [myCalculator clear];
     
     [displayString setString:@""];
+    display.text = displayString;
+}
+
+-(IBAction)clickBackspace
+{
+    NSString *temp = display.text;
+    if ([temp length] > 0 )
+        temp = [temp substringToIndex:[temp length]-1];
+    currentNumber = [temp integerValue];
+    [displayString setString:temp];
+    display.text = displayString;
+}
+
+-(IBAction)clickSignChange
+{
+    currentNumber *= -1;
+    NSString *temp = [NSString stringWithFormat:@"%li",(long)currentNumber];
+    [displayString setString:temp];
     display.text = displayString;
 }
 
